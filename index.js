@@ -7,7 +7,13 @@ function saturdayFun(actionWord="roller-skate"){
   }
   
   function wrapAdjective(highlight){
-      return function newfunc(adjective){
-        return `You are ${highlight}${adjective}${highlight}!`
-      }
+    const newone = "a";
+      return function function2(adjective){
+        const newtwo = " dedicated programmer%";
+        return function() {
+          console.log(`You are ${highlight}${newone}${newtwo}!`);
+        };
+      };
   }
+
+  wrapAdjective("%")()();
